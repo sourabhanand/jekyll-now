@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talk is cheap. Show me the code.
+title: Talk is cheap, show me the code.
 permalink: /about/
 ---
 
