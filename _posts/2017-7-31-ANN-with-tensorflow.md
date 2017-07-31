@@ -1,4 +1,7 @@
-#Implementing a simple Artificial Neural Networks using Tensorflow
+---
+layout: post
+title: Implementing a simple Artificial Neural Networks using Tensorflow
+---
 
 Ever since [Tensorflow](https://www.tensorflow.org/) was released by Google back in Nov-2015, I always wanted to get my hands dirty with it. Being very new to machine learning back then(I still am a noob), the documentation didn't make much sense to me and having come from [Caffe](http://caffe.berkeleyvision.org/)'s background, the way in which a network was described and trained didn't make any sense either.
 
@@ -30,7 +33,7 @@ Now, let's see the truth table for an OR gate
 </table>
 
 There are two inputs and one output. So our neural network should have two neurons in the input layer and one in the output layer. For simplicity let's consider only one hidden layer with 3 neurons in it. Our neural network will look something like this:
-<<>>
+![network]({{ site.baseurl }}/images/network.png)
 
 Let the input be represented by `x` and output with `y`. The training data is given below:
 
@@ -47,7 +50,7 @@ Second layer weights again can be represented in a matrix of dimension `3x1`
 `W2 = [[w1, w2, w3]]`
 
 The output at first layer `z1` is matrix multiplication of input `x` and weights `W1`. We will also apply **activation function** to our output. Activation functions are used to make our model non-linear so that we can fit complex data patterns. [This](https://www.quora.com/What-is-the-role-of-the-activation-function-in-a-neural-network) Quora thread has nice explanation of activation functions. We will choose **tanh** or the hyberbolic tangent function as our activation function. It is represented as follows:
-<<>>
+![tanh]({{ site.baseurl }}/images/tanh.png)
 
 So, the first layer ouput can be written as:
 `A1 = f(z1)`, where `z1 = matmul(x, W1)`
