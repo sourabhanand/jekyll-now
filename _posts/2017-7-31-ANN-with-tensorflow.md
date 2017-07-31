@@ -50,6 +50,7 @@ Second layer weights again can be represented in a matrix of dimension `3x1`
 `W2 = [[w1, w2, w3]]`
 
 The output at first layer `z1` is matrix multiplication of input `x` and weights `W1`. We will also apply **activation function** to our output. Activation functions are used to make our model non-linear so that we can fit complex data patterns. [This](https://www.quora.com/What-is-the-role-of-the-activation-function-in-a-neural-network) Quora thread has nice explanation of activation functions. We will choose **tanh** or the hyberbolic tangent function as our activation function. It is represented as follows:
+
 ![tanh]({{ site.baseurl }}/images/tanh.png)
 
 So, the first layer ouput can be written as:
