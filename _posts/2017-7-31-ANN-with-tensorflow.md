@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Implementing a simple Artificial Neural Networks using Tensorflow
+title: Implementing a simple Artificial Neural Network using Tensorflow
 ---
 
 Ever since [Tensorflow](https://www.tensorflow.org/) was released by Google back in Nov-2015, I always wanted to get my hands dirty with it. Being very new to machine learning back then(I still am a noob), the documentation didn't make much sense to me and having come from [Caffe](http://caffe.berkeleyvision.org/)'s background, the way in which a network was described and trained didn't make any sense either.
