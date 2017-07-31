@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Implementing a simple Artificial Neural Networks using Tensorflow
-excerpt: Ever since [Tensorflow](https://www.tensorflow.org/) was released by Google back in Nov-2015, I always wanted to get my hands dirty with it. Being very new to machine learning back then(I still am a noob), the documentation didn't make much sense to me and having come from [Caffe](http://caffe.berkeleyvision.org/)'s background, the way in which a network was described and trained didn't make any sense either.
 ---
 
 Ever since [Tensorflow](https://www.tensorflow.org/) was released by Google back in Nov-2015, I always wanted to get my hands dirty with it. Being very new to machine learning back then(I still am a noob), the documentation didn't make much sense to me and having come from [Caffe](http://caffe.berkeleyvision.org/)'s background, the way in which a network was described and trained didn't make any sense either.
-
+<!--more-->
 I recently came across Stephen Welch's video series [Neural Networks Demystified](https://www.youtube.com/playlist?list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU) and that inspired me to implement a simple artificial neural network. I choose to implement the same in Tensorflow. (What better way to overcome your fear than to actually face it..eh?)
 
 So here is the problem statement and I'll walk through the steps of implementing the same.
