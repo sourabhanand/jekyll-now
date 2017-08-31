@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Talk is cheap, show me the code. -- Linus Torvalds
+title: Talk is cheap, show me the code.
 permalink: /about/
 ---
+<p style="text-align: right">-- Linus Torvalds</p>
+
 
 I am currently working as a Software Engineer for [Xilinx Inc.](https://www.xilinx.com/), focussing on developing software tools for FPGA Device Model Verification and am based out of Hyderabad, India.
 Prior to this, I worked as Software Engineer at [MulticoreWare Inc](https://multicorewareinc.com/). for almost 3 years where I developed avid interest in Machine Learning specifically in the field of Convolutional Neural Networks. I worked on developing optimized CNN algorithms for embbeded DSPs.
