@@ -3,7 +3,7 @@ layout: page
 title: Talk is cheap, show me the code.
 permalink: /about/
 ---
-<p style="text-align: right">-- Linus Torvalds</p>
+<div style="text-align: right">-- Linus Torvalds</div>
 
 
 I am currently working as a Software Engineer for [Xilinx Inc.](https://www.xilinx.com/), focussing on developing software tools for FPGA Device Model Verification and am based out of Hyderabad, India.
